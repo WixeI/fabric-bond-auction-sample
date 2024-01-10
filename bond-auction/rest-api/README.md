@@ -48,11 +48,11 @@ curl --request POST \
   --data args=037833100
 ```
 
-### Bid in Auction [POST]
+### Bid in Auction (as Org2) [POST]
 
 ```sh
 curl --request POST \
-  --url http://localhost:3002/invoke \
+  --url http://localhost:3001/invoke \
   --header 'content-type: application/x-www-form-urlencoded' \
   --data = \
   --data channelid=mychannel \
